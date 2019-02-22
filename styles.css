@@ -1,0 +1,41 @@
+/*The Frontend Nanodegree Style Guide suggests having a space between the selector and opening brace and having a blank line between each CSS rule:*/
+html {
+  font-family: Ariel, Helvetica, sans-serif;
+  color: white;
+}
+
+#animal-trading-card {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px rgba(119, 101, 101, 0.3);
+  background-color: #331900;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.tiger-image {
+  width: 300px;
+  border-radius: 9px;
+}
+
+.fact {
+  font-style: italic;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.description {
+  margin: 0px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+}
